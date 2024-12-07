@@ -54,8 +54,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-
-   - name: Clean-up
+    
+    - name: Clean-up
       uses: rokibhasansagar/slimhub_actions@main
       
     - name: Swap Space
